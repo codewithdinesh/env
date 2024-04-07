@@ -1,5 +1,4 @@
-"use client"
-
+// components/InteractiveChart.js
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
@@ -25,6 +24,9 @@ const InteractiveChart = ({ data }) => {
                 ticks: {
                     beginAtZero: true
                 }
+            }],
+            xAxes: [{
+                type: 'category'
             }]
         }
     };
