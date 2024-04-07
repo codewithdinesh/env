@@ -10,7 +10,7 @@ export const suggestController = async (req, res) => {
 
     const { age, income, goal, saving, libilities, assets, risk_factor, duration } = req.body;
 
-    let prompt = `Given the following details: Age: ${age}, Income: ${income}, Goal: ${goal}, Savings: ${saving}, Liabilities: ${libilities}, Assets: ${assets}, Risk Factor: ${risk_factor}, Duration: ${duration}, suggest the best investment option.`;
+    let prompt = `Given the following details: Age: ${age}, Income: ${income}, Goal: ${goal}, Savings: ${saving}, Liabilities: ${libilities}, Assets: ${assets}, Risk Factor: ${risk_factor}, Duration: ${duration}, suggest the best investment options and give elaborated pointed answer.`;
 
     const user = await userModel.findOne({ _id: req.body.userID });
 
