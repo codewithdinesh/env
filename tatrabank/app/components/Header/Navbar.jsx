@@ -53,7 +53,7 @@ const NavBar = () => {
                         <Link href="/blogs" className="cursor-pointer space-x-2 font-semibold text-lg  p-2 m-1 hover:text-blue-700 w-full">
                             Blogs
                         </Link>
-                        <Link href="/explore" className="cursor-pointer space-x-2 font-semibold text-lg  p-2 m-1 hover:text-blue-700  w-full">
+                        <Link href="/game" className="cursor-pointer space-x-2 font-semibold text-lg  p-2 m-1 hover:text-blue-700  w-full">
                             Game
                         </Link>
 
