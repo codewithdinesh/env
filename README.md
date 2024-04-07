@@ -1,64 +1,46 @@
-<!-- 
-This repository is to show the cool project you created.
-To make it easier to present, we created this sample, which you can edit and use for your HK project.
--->
+Project Name: Finwiz
+Introduction
+The Finwiz project aims to provide users with personalized financial advice based on their financial parameters such as savings, assets, liabilities, and goals. The project utilizes AI algorithms to analyze user data and generate suggestions on investment strategies and financial improvements. This README provides an overview of the project, its functionalities, setup instructions, and usage guidelines.
 
-![image](.template_images/Top.png)
+Features
+User Authentication: Allows users to register, login, and logout securely.
+Financial Parameter Input: Enables users to input their financial parameters such as savings, assets, liabilities, and goals.
+AI Analysis: Utilizes AI algorithms to analyze user data and provide personalized financial suggestions.
+Investment Recommendations: Offers suggestions on investment strategies based on user's financial situation and goals.
+Financial Improvement Tips: Provides tips and advice on how users can improve their financial health.
+Installation
+To run the Financial Advisor project locally, follow these steps:
 
-<p align="center">
-  <a href="https://hackkosice.com">
-    <img src="https://github.com/hackkosice/i-demoed-hk24/assets/41269745/156db290-9b9f-47b3-9268-3c7381081144" height="300px">
-  </a>
-</p>
+Clone the repository: git clone (https://github.com/codewithdinesh/finwiz)
+Navigate to the project directory: cd finwiz
+Install dependencies: npm install (assuming npm is installed)
+Set up environment variables:
+Create a .env file in the root directory.
+Define necessary environment variables such as database connection details, API keys, etc.
+Set up the database:
+Run database migrations: npm run migrate
+(Optional) Seed the database with sample data: npm run seed
+Start the server: npm start
+Access the application via http://localhost:3000 in your web browser.
+Usage
+Register/Login:
+Create a new account or login using existing credentials.
+Input Financial Parameters:
+Provide details such as savings, assets, liabilities, and financial goals.
+Receive Suggestions:
+After submitting financial parameters, the AI algorithm will analyze the data and generate personalized suggestions.
+View Recommendations:
+Explore investment recommendations and financial improvement tips provided by the system.
+Logout:
+Securely logout from the system when done.
+Technologies Used
+Frontend: HTML, CSS, JavaScript (React)
+Backend: Node.js, Express.js
+Database: SQL (e.g., PostgreSQL)
+AI Algorithms: Python (e.g., TensorFlow, scikit-learn)
+Authentication: JWT (JSON Web Tokens)
+Others: npm (package manager), dotenv (environment variables management), etc.
+Contributing
+Contributions to the Financial Advisor project are welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-&nbsp;
-
-<!--
-In the next part, we recommend displaying all important shields for your project: https://github.com/badges/shields
--->
-
-[![All Contributors](https://img.shields.io/github/contributors/hackkosice/i-demoed-hk24?style=flat-square)](https://github.com/hackkosice/i-demoed-hk24/graphs/contributors)
-[![Activity](https://img.shields.io/github/commit-activity/m/hackkosice/i-demoed-hk24?style=flat-square)](https://github.com/hackkosice/i-demoed-hk24/pulse)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
-
-
-
-A quick short description of what this project is about. It should be explained in
-3 - 4 four sentences to catch the eye of the viewer of the Githu repository. 
-It can contain some technologies, and what is the outcome of the project.
-
-![image](.template_images/Mid.png)
-
-
-## Other Project repositories
-
-<!--
-If your project is constructed out of multiple Repositories, you can specify them here:
--->
-
-## Documentation
-
-<!--
-Documentation is a crucial part of every project, but also maybe during the hackathon, you did not have time to create it. We recommend coming back later and filling in this part, for example, with https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis
--->
-
-
-## Contributors ✨
-
-Thanks go to these wonderful people
-<!--
-Here, you can show off all your cool teammates with whom you created this project.
-If you want to automate it, you can use a cool bot: https://allcontributors.org/
--->
-
-## License
-
-<!-- You can use this section to specify the license for this project under which it can be distributed. -->
-
-## Thanks
-
-<!-- You can use this section to thank people who helped you create this awesome project outside of your team -->
-
-![image](.template_images/Bot.png)
 
